@@ -1,0 +1,7 @@
+# Resolved for CPython 3.14 on win_amd64 (2026-11-06).
+# Polars is the processing engine. PyArrow writes partitioned Parquet.
+# Pandas is reserved for boundary conversions and is not the hot path.
+polars==2.1.0
+pyarrow==26.0.1
+pandas==3.0.6
+pytest==8.4.2

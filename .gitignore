@@ -1,0 +1,14 @@
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.env
+
+# Generated data stays local. Directory placeholders are tracked.
+data/raw/*
+data/quarantine/*
+data/partitioned_store/*
+data/*.sqlite
+data/*.sqlite3
+!data/**/.gitkeep
